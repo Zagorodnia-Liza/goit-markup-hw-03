@@ -6,24 +6,26 @@
 /* цвет фона футера #2F303A*/
 :root {
     --pimary-text-color: #212121;
-    --title-text-color:#212121;
+    --title-text-color: #212121;
     --accent-color: #2196F3;
     --primary-bg-color: #FFFFFF;
     --bg-color-button: #F5F4FA;
-    --second-color-text:#757575;
-    --color-fon-footer:#2F303A;
+    --second-color-text: #757575;
+    --color-fon-footer: #2F303A;
 }
+
 * {
     box-sizing: border-box;
 }
 
 body {
-   background-color: var(--primary-bg-color);
-    font-family: Roboto,sans-serif;
-    color:var (--pimary-text-color) ;
+    background-color: var(--primary-bg-color);
+    font-family: Roboto, sans-serif;
+    color: var (--pimary-text-color);
     font-size: 14px;
     letter-spacing: 0.03em;
 }
+
 p,
 h1,
 h2,
@@ -34,14 +36,21 @@ h6 {
     margin: 0;
 }
 
-ul ,ol {
+ul,
+ol {
     list-style: none;
     margin: 0;
     padding-left: 0;
 }
+
 button {
     cursor: pointer;
 }
+
+img {
+    display: block;
+}
+
 .container {
     width: 1200px;
     margin: 0 auto;
@@ -49,63 +58,74 @@ button {
     padding-right: 15px;
     outline: 1px solid red;
 }
+
 /*-------heder-----*/
 .header {
     padding-top: 24px;
     padding-bottom: 25px;
 }
+
 .logo {
-    color:var(--accent-color);
+    color: var(--accent-color);
     text-decoration: none;
     font-family: Raleway;
     font-family: 'Raleway';
     font-size: 26px;
     line-height: 1.19;
 }
+
 .logo-link {
-color: #000000;
-text-decoration: none;
+    color: #000000;
+    text-decoration: none;
 }
+
 .site-nav .link {
-    color:var(--title-text-color) ;
+    color: var(--title-text-color);
     text-decoration: none;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
+
 .site-nav .link:hover,
 site-nav .link:focus {
     color: var(--accent-color);
 }
+
 .link:hover,
 .link:focus {
-    color:var(--accent-color);
+    color: var(--accent-color);
 }
+
 .auth-link {
-    color:var(--second-color-text) ;
+    color: var(--second-color-text);
     text-decoration: none;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
+
 .auth-link:hover,
 .auth-link:focus {
-color: var(--accent-color);
+    color: var(--accent-color);
 }
+
 .site-nav .link.current {
     color: var(--accent-color);
 }
+
 /* ---hero-------- */
 .hero {
-    background-color:var(--color-fon-footer);
+    background-color: var(--color-fon-footer);
     color: var(--primary-bg-color);
     text-align: center;
 }
+
 .hero-title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-  
+
     letter-spacing: 0.06em;
     text-transform: uppercase;
     margin-bottom: 30px;
@@ -113,6 +133,7 @@ color: var(--accent-color);
     padding-left: 250px;
     padding-right: 250px;
 }
+
 /* -----button----- */
 .hero-btn {
     background-color: var(--accent-color);
@@ -124,15 +145,17 @@ color: var(--accent-color);
     font-size: 16px;
     line-height: 1.8;
     margin-bottom: 200px;
-  
-       
- 
-  
-   
+
+
+
+
+
+
 }
+
 .hero-btn:hover,
 .hero-btn:focus {
-background:var(--accent-color) ;
+    background: var(--accent-color);
 }
 
 
@@ -142,33 +165,46 @@ background:var(--accent-color) ;
     padding-top: 94px;
     padding-bottom: 47px;
 }
+
 .feature-list {
-    background-color:var(--bg-color-button);
+    background-color: var(--bg-color-button);
     padding-top: 94px;
     padding-bottom: 94px;
 }
+
 .section-about {
     display: none;
     font-weight: 700;
     font-size: 36px;
-    line-height:1.17;
+    line-height: 1.17;
     text-align: center;
 }
-.section-title , .title  {
-    color:var(--title-text-color);
-    }
+
+.section-title,
+.title {
+    color: var(--title-text-color);
+    margin-bottom: 50px;
+}
+
 .title {
     color: var(--pimary-text-color);
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
-}  
+    margin-bottom: 10px;
+}
+
 .title-name {
     color: var(--pimary-text-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
-    
+    margin-bottom: 10px;
+}
+
+.coommand-name {
+    text-align: center;
+    padding: 30px 70px;
 }
 
 .section-title {
@@ -178,28 +214,39 @@ background:var(--accent-color) ;
     line-height: 1.17;
     text-align: center;
 }
+
 .section-subtitle {
-    color:var(--second-color-text);
+    color: var(--second-color-text);
     line-height: 1.71;
 }
+
 .section-two {
     padding-top: 47px;
     padding-bottom: 94px;
 }
+
 .section-subtitlef {
     color: var(--second-color-text);
     font-size: 16px;
     line-height: 1.19;
 }
+
 /*------page2------*/
 .portfolio-title {
-   display: none;
+    display: none;
 }
+
 .link-filtr:hover,
 .link-filtr:focus {
     background-color: var(--accent-color);
     color: var(--primary-bg-color);
 }
+
+.filtr {
+    padding-top: 94px;
+    margin-bottom: 50px;
+}
+
 .link-filtr {
     background: var(--bg-color-button);
     border-radius: 4px;
@@ -208,37 +255,55 @@ background:var(--accent-color) ;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
+    display: block;
+
+
 }
+
 .page-link {
     text-decoration: none;
+    width: 370px;
+    height: 404px;
+    margin-bottom: 30px;
 }
- .title-link {
+
+.title-link {
     color: var(--pimary-text-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
- }
- .page-text {
+    margin-bottom: 4px;
+}
+
+.page-text {
     color: var(--second-color-text);
     font-size: 16px;
     line-height: 1.88;
-    
- }
- .section-page {
-     padding-top: 94px;
-     padding-bottom:94px ;
- }
- 
+    margin-bottom: 20px;
+
+}
+
+.section-page {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 /*------footer------*/
 .footer {
     background-color: var(--color-fon-footer);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
+
 .logo-linkf {
     color: var(--primary-bg-color);
     font-weight: 700;
     font-size: 26px;
-    line-height:1.19;
+    line-height: 1.19;
+    display: inline-block;
+    margin-bottom: 20px;
 }
+
 .map {
     color: var(--primary-bg-color);
     text-decoration: none;
@@ -246,20 +311,32 @@ background:var(--accent-color) ;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+    display: block;
+    margin-bottom: 9px;
 }
-.mail, .tel {
+
+.mail {
+    display: block;
+    margin-bottom: 9px;
+}
+
+.mail,
+.tel {
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-}   
-.mail:hover, 
-.mail:focus {
- color: var(--accent-color);
+
 }
+
+.mail:hover,
+.mail:focus {
+    color: var(--accent-color);
+}
+
 .tel:hover,
 .tel:focus {
-color: var(--accent-color);
+    color: var(--accent-color);
 }
