@@ -13,6 +13,7 @@
     --second-color-text: #757575;
     --color-fon-footer: #2F303A;
     --color-logo-second: #000000;
+    --color-border:#ECECEC;
 }
 
 * {
@@ -64,7 +65,8 @@ img {
 .header {
     padding-top: 24px;
     padding-bottom: 25px;
-    
+    border: 1px solid
+     var(--color-border);
 }
 .header .container {
     display: flex;
@@ -123,6 +125,7 @@ site-nav .link:focus {
 
 .auth-link {
     display: block;
+
     color: var(--second-color-text);
     text-decoration: none;
     font-weight: 500;
@@ -174,11 +177,13 @@ site-nav .link:focus {
 /* -----button----- */
 .hero-btn {
     margin-bottom: 200px;
+    min-width: 200px;
+    height: 50px;
+    border-radius: 4px;
 
     background-color: var(--accent-color);
     color: var(--primary-bg-color);
     border-color: transparent;
-    border-radius: 4px;
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
@@ -271,6 +276,9 @@ site-nav .link:focus {
     padding-top: 47px;
     padding-bottom: 94px;
 }
+.two-item + .two-item {
+    margin-left: 30px;
+}
 .two-section {
     display: flex;
     justify-content:space-around;
@@ -278,6 +286,9 @@ site-nav .link:focus {
 .our-staff {
     display: flex;
   justify-content: space-around;
+}
+.staff-item + .staff-item {
+    margin-left: 30px;
 }
 
 .section-subtitlef {
@@ -298,12 +309,18 @@ site-nav .link:focus {
 }
 
 .filtr {
-    padding-top: 94px;
+    display: flex;
+    justify-content: center;
     margin-bottom: 50px;
+}
+.filtr-item:not(:last-child) {
+    margin-right: 8px;
 }
 
 .link-filtr {
     display: block;
+    min-width: 73px;
+    height:38px ;
 
     background: var(--bg-color-button);
     border-radius: 4px;
@@ -312,9 +329,11 @@ site-nav .link:focus {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
-    
-
-
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.page-list {
+    display: flex;
 }
 
 .page-link {
@@ -322,6 +341,9 @@ site-nav .link:focus {
     width: 370px;
     height: 404px;
     margin-bottom: 30px;
+}
+.page-title-text {
+    border:1px solid #EEEEEE;
 }
 
 .title-link {
@@ -331,17 +353,13 @@ site-nav .link:focus {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
-    
 }
-
 .page-text {
     margin-bottom: 20px;
 
     color: var(--second-color-text);
     font-size: 16px;
     line-height: 1.88;
-    
-
 }
 
 .section-page {
