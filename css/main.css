@@ -27,7 +27,7 @@ body {
     font-size: 14px;
     letter-spacing: 0.03em;
 }
-
+/* ------utilities----- */
 p,
 h1,
 h2,
@@ -352,21 +352,32 @@ site-nav .link:focus {
 
 .page-list {
     display: flex;
-}
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
 
-.page-item:not(:last-child) {
-margin-right: 30px;
+.page-item:nth-child(3n) {
+margin-right: 0;
+
+
+}
+.page-item {
+width: 370px;
 margin-bottom: 30px;
 }
 
+
 .page-link {
+
     text-decoration: none;
     width: 370px;
     height: 404px;
+    margin-right: 0;
     margin-bottom: 30px;
 }
 
 .page-title-text {
+    width: 370px;
     margin-top: 0;
     margin-bottom: 0;
 
