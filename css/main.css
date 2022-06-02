@@ -61,14 +61,17 @@ img {
 }
 
 /*-------heder-----*/
+
 .header {
      border: 1px solid
      var(--color-border);
 }
+
 .header .container {
     display: flex;
     align-items: center;
 }
+
 .main-nav {
     display:flex;
 }
@@ -76,7 +79,6 @@ img {
 .logo {
     display: inline-block;
   
-
     color: var(--accent-color);
     text-decoration: none;
     font-family: Raleway;
@@ -91,11 +93,10 @@ img {
     padding-top: 24px;
     padding-bottom: 25px;
  
-  
-
     color: var(--color-logo-second);
     text-decoration: none;
 }
+
 .site-nav {
     display: flex;
 }
@@ -133,12 +134,11 @@ site-nav .link:focus {
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
+
 .auth-nav {
     display: flex;
     margin-left: auto;
-    
 }
-
 
 .auth-link:hover,
 .auth-link:focus {
@@ -148,10 +148,13 @@ site-nav .link:focus {
 .site-nav .link.current {
     color: var(--accent-color);
 }
+
 .item:not(:last-child) {
     margin-right: 50px;
 }
+
 /* ---hero-------- */
+
 .hero {
     background-color: var(--color-fon-footer);
     color: var(--primary-bg-color);
@@ -169,11 +172,10 @@ site-nav .link:focus {
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-
-    
 }
 
 /* -----button----- */
+
 .hero-btn {
     min-width: 200px;
     height: 50px;
@@ -193,7 +195,9 @@ site-nav .link:focus {
 .hero-btn:focus {
     background: var(--accent-color);
 }
+
 /*-------main------*/
+
 .section-one {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -213,6 +217,7 @@ site-nav .link:focus {
     line-height: 1.17;
     text-align: center;
 }
+
 .one-section {
     display: flex;
 }
@@ -222,7 +227,6 @@ site-nav .link:focus {
     margin-bottom: 50px;
 
     color: var(--title-text-color);
-    
 }
 
 .title {
@@ -233,8 +237,8 @@ site-nav .link:focus {
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
-    
 }
+
 .one-item:not(:last-child) {
     margin-right: 30px;
 }
@@ -246,7 +250,6 @@ site-nav .link:focus {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
-    
 }
 
 .coommand-name {
@@ -271,7 +274,6 @@ site-nav .link:focus {
     margin-top: 0;
     margin-bottom: 0;
     
-
     color: var(--second-color-text);
     line-height: 1.71;
 }
@@ -280,15 +282,19 @@ site-nav .link:focus {
    padding-top: 0;
     padding-bottom: 94px;
 }
+
 .two-item:not(:last-child) {
     margin-right: 30px;
 }
+
 .two-section {
     display: flex;
 }
+
 .our-staff {
     display: flex;
 }
+
 .staff-item:not(:last-child) {
     margin-right: 30px;
 }
@@ -303,6 +309,7 @@ site-nav .link:focus {
 }
 
 /*------page2------*/
+
 .section-page {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -322,6 +329,7 @@ site-nav .link:focus {
     justify-content: center;
     margin-bottom: 50px;
 }
+
 .filtr-item:not(:last-child) {
     margin-right: 8px;
 }
@@ -341,9 +349,11 @@ site-nav .link:focus {
     text-align: center;
     letter-spacing: 0.03em;
 }
+
 .page-list {
     display: flex;
 }
+
 .page-item:not(:last-child) {
 margin-right: 30px;
 margin-bottom: 30px;
@@ -355,6 +365,7 @@ margin-bottom: 30px;
     height: 404px;
     margin-bottom: 30px;
 }
+
 .page-title-text {
     margin-top: 0;
     margin-bottom: 0;
@@ -371,6 +382,7 @@ margin-bottom: 30px;
     font-size: 18px;
     line-height: 2;
 }
+
 .page-text {
     padding: 0;
     color: var(--second-color-text);
@@ -384,20 +396,17 @@ margin-bottom: 30px;
     padding-bottom: 60px;
 
     background-color: var(--color-fon-footer);
-    
-
 }
 
 .logo-linkf {
     display: inline-block;
    
-
     color: var(--primary-bg-color);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    
 }
+
 .down {
 margin-bottom: 20px;
 }
@@ -412,7 +421,6 @@ margin-bottom: 20px;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    
 }
 
 .mail {
@@ -428,7 +436,6 @@ margin-bottom: 20px;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-
 }
 
 .mail:hover,
