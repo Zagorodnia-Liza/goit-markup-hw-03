@@ -28,7 +28,7 @@ body {
     letter-spacing: 0.03em;
 }
 
-
+p,
 h1,
 h2,
 h3,
@@ -58,7 +58,6 @@ img {
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-    outline: 1px solid red;
 }
 
 /*-------heder-----*/
@@ -304,6 +303,10 @@ site-nav .link:focus {
 }
 
 /*------page2------*/
+.section-page {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .portfolio-title {
     display: none;
 }
@@ -369,15 +372,10 @@ margin-bottom: 30px;
     line-height: 2;
 }
 .page-text {
-    margin-bottom: 20px;
-
+    padding: 0;
     color: var(--second-color-text);
     font-size: 16px;
     line-height: 1.88;
-}
-
-.section-page {
-    padding-bottom: 94px;
 }
 
 /*------footer------*/
