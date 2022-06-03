@@ -254,7 +254,7 @@ site-nav .link:focus {
 
 .coommand-name {
     padding: 30px 0;
-    border: 1px solid #EEEEEE;
+    
     border-radius: 0px 0px 4px 4px;
   
     text-align: center;
@@ -298,6 +298,9 @@ site-nav .link:focus {
 .staff-item:not(:last-child) {
     margin-right: 30px;
 }
+.staff-item {
+    border: 1px solid #EEEEEE;
+}
 
 .section-subtitlef {
     margin-top: 0;
@@ -336,8 +339,7 @@ site-nav .link:focus {
 
 .link-filtr {
     display: block;
-    min-width: 73px;
-    height:38px ;
+    padding: 6px 22 px;
 
     background: var(--bg-color-button);
     border-radius: 4px;
@@ -355,17 +357,10 @@ site-nav .link:focus {
     flex-wrap: wrap;
     justify-content: space-between;
  }
-
-.page-item:nth-child(3n) {
-margin-right: 0;
-
-
+.item-page {
+   
+    margin-bottom: 30px;
 }
-.page-item {
-width: 370px;
-margin-bottom: 30px;
-}
-
 
 .page-link {
 
@@ -377,10 +372,6 @@ margin-bottom: 30px;
 }
 
 .page-title-text {
-    width: 370px;
-    margin-top: 0;
-    margin-bottom: 0;
-
     border:1px solid #EEEEEE;
     padding: 20px 24px;
 }
